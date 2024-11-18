@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Огромный HTML-документ</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title">Заголовок сайта</h1>
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li><a href="#" class="menu__link active">Главная</a></li>
+                <li><a href="#" class="menu__link">О нас</a></li>
+                <li><a href="#" class="menu__link">Услуги</a></li>
+                <li><a href="#" class="menu__link">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form class="form1" action="#" method="post">
+            <label for="checkbox">Checkbox:</label>
+            <input type="checkbox" id="checkbox" name="checkbox">
+
+            <label for="radio">Radio:</label>
+            <input type="radio" id="radio1" name="radio" value="option1">
+            <input type="radio" id="radio2" name="radio" value="option2">
+            <input type="radio" id="radio3" name="radio" value="option3">
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <input type="file" id="file" name="file">
+            <button type="button">Button</button>
+
+            <label for="text">Text:</label>
+            <input type="text" id="text" name="text">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="input" id="input" name="input">
+
+            <input type="form" id="form" name="form">
+        </form>
+
+        <section class="sec" id="section1">
+            <h2>Первый раздел</h2>
+            <p>Содержимое первого раздела.</p>
+            <button class="btn">Кнопка 1</button>
+            <button class="btn2">Кнопка 2</button>
+        </section>
+
+        <section id="section2">
+            <h2>Второй раздел</h2>
+            <p>Содержимое второго раздела.</p>
+            <ul>
+                <li>Пункт 1</li>
+                <li>Пункт 2</li>
+                <li>Пункт 3</li>
+                <li>Пункт 1</li>
+                <li>Пункт 2</li>
+                <li>Пункт 3</li>
+            </ul>
+        </section>
+
+        <section id="section3">
+            <h2 class="amg">Третий раздел</h2>
+            <p>Содержимое третьего раздела.</p>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+            <p>Еще немного текста</p>
+        </section>
+
+        <section class="mainClass" id="section4">
+            <h2>Четвертый раздел</h2>
+            <p>Содержимое четвертого раздела.</p>
+            <table>
+                <tr>
+                    <th>Заголовок 1</th>
+                    <th>Заголовок 2</th>
+                    <th>Заголовок 3</th>
+                </tr>
+                <tr>
+                    <td>Ячейка 1</td>
+                    <td>Ячейка 2</td>
+                    <td>Ячейка 3</td>
+                </tr>
+                <tr>
+                    <td>Ячейка 4</td>
+                    <td>Ячейка 5</td>
+                    <td>Ячейка 6</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Название вашей компании</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

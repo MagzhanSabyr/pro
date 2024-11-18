@@ -1,0 +1,135 @@
+/* Общие стили для элементов */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Стили для заголовка сайта */
+.header {
+  background-color: #007bff; /* Яркий синий цвет для заголовка */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Стили для навигационного меню */
+.header__menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header__menu li {
+  margin: 0 10px;
+}
+
+.header__menu li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header__menu li a:hover {
+  color: #ffc107; /* Желтый цвет при наведении на ссылку */
+}
+
+/* Стили для формы */
+form {
+  background-color: #f8f9fa; /* Светло-серый цвет для формы */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+  margin-right: 5px;
+}
+
+form input[type="submit"],
+form input[type="reset"],
+form input[type="button"] {
+  background-color: #28a745; /* Зеленый цвет для кнопок */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover,
+form input[type="button"]:hover {
+  background-color: #218838; /* Темно-зеленый цвет при наведении на кнопку */
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="file"],
+form input[type="input"],
+form input[type="form"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Стили для секций */
+section {
+  background-color: #fff; /* Белый цвет для секции */
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #dc3545; /* Красный цвет для заголовков секции */
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+/* Стили для таблиц */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Стили для футера */
+footer {
+  background-color: #343a40; /* Темно-серый цвет для футера */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
